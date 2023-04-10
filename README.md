@@ -7,3 +7,4 @@
 - Params: `Params` takes a function type and returns its parameters as a tuple.
 - Head: `Head` takes an array and returns its first element.
 - Tail: `Tail` takes an array and returns all but the first element.
+- HasTail: `HasTail` takes an array and returns true if it has more than one element.
