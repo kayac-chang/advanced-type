@@ -16,3 +16,4 @@
 - Length: `Length` takes an array and returns its length.
 - Prepend: `Prepend` takes an element and an array and returns a new array with the element prepended.
 - Drop: `Drop` takes a number and an array and returns a new array with the first N elements removed.
+- Curry: `Curry` takes a function and returns a curried version of it.
