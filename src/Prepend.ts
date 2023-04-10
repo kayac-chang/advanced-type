@@ -1,10 +1,10 @@
-import { Equal } from "./Equal";
-import { Expect } from "./Expect";
+import type { Equal } from "./Equal";
+import type { Expect } from "./Expect";
 
 /**
  * `Prepend` takes an element and an array and returns a new array with the element prepended.
  */
-type Prepend<E, T extends any[]> = [E, ...T];
+export type Prepend<E, T extends any[]> = [E, ...T];
 
 export type Test1 = Expect<Equal<Prepend<1, [2, 3]>, [1, 2, 3]>>;
 export type Test2 = Expect<Equal<Prepend<1, []>, [1]>>;

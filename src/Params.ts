@@ -1,10 +1,10 @@
-import { Equal } from "./Equal";
-import { Expect } from "./Expect";
+import type { Equal } from "./Equal";
+import type { Expect } from "./Expect";
 
 /**
  * `Params` takes a function type and returns its parameters as a tuple.
  */
-type Params<F extends (...args: any[]) => any> = F extends (
+export type Params<F extends (...args: any[]) => any> = F extends (
   ...args: infer P
 ) => any
   ? P
