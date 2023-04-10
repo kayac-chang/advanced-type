@@ -1,0 +1,15 @@
+{
+  "name": "advanced-type",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  },
+  "prettier": {},
+  "eslintIgnore": [
+    "/node_modules"
+  ]
+}
