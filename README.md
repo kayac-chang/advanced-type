@@ -1,5 +1,9 @@
 # Advanced Typescript
 
+## Requirement
+
+- typescript: ^5
+
 ## Includes Type
 
 - Expect: `Expect` takes one type parameter and only type-checks if it is true.
